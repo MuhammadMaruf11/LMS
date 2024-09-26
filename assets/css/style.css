@@ -1,0 +1,118 @@
+/* import font from font.google.com  */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+/* default css start here  */
+
+@import url("./default.css");
+
+/* default css end here  */
+
+/* header css start here  */
+
+@import url("./header.css");
+
+/* header css end here  */
+
+/* footer css start here  */
+
+@import url("./footer.css");
+
+/* footer css end here  */
+
+/* main css start here  */
+
+/* banner section  */
+
+.banner-area {
+  background-image: url("../img/banner/banner.webp");
+  padding: 200px 0;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.banner-description p {
+  font-size: 24px;
+}
+
+.banner-description {
+  margin-bottom: 24px;
+}
+
+/* common section  */
+
+.common-img {
+  text-align: center;
+}
+
+.section-description p {
+  margin-bottom: 24px;
+}
+
+.section-list ul li {
+  list-style-position: inside;
+  font-size: 18px;
+}
+
+/* ecosystem section  */
+
+.ecosystem-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 380px;
+}
+
+.ecosystem-title h3 {
+  color: var(--primary-color);
+}
+
+/* testimonial section  */
+
+#testimonial {
+  text-align: center;
+}
+
+#testimonial .carousel-indicators {
+  position: inherit;
+}
+
+#testimonial .carousel-inner {
+  margin-bottom: 50px;
+}
+
+.testimonial-description {
+  margin-bottom: 40px;
+}
+
+.testimonial-description p {
+  font-size: 36px;
+}
+
+.testimonial-title h4 {
+  color: var(--primary-color);
+}
+
+.testimonial-description p::before {
+  content: open-quote;
+}
+
+.testimonial-description p::after {
+  content: close-quote;
+}
+
+/* contact section  */
+
+.contact-form .form-floating {
+  margin-bottom: 24px;
+}
+
+.contact-form .form-floating textarea {
+  min-height: 150px !important;
+}
+
+/* main css start end */

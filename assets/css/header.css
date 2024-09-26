@@ -1,0 +1,93 @@
+.header-area {
+  background: #fff;
+  padding: 15px 0;
+}
+
+.header-top {
+  background: #000;
+}
+
+.header-bottom {
+  padding: 15px 0;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 99999;
+  background: #fff;
+  transition: 0.3s;
+  box-shadow: 0 0 5px #00000020;
+}
+
+.header-logo a {
+  display: inline-block;
+  width: 150px;
+}
+
+.toggle-icon {
+  font-size: 28px;
+}
+
+.toggle-icon i {
+  color: #000;
+}
+
+.main-menu > ul {
+  list-style: none;
+  text-align: center;
+}
+
+.main-menu > ul > li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.main-menu > ul > li:hover > a {
+  color: #0088cc;
+  color: var(--primary-color);
+}
+
+.main-menu ul > li > a {
+  color: #111111;
+  border: solid transparent;
+  border-width: 2px 0;
+  padding: 10px 0;
+  display: block;
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.main-menu ul > li > a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #0088cc;
+  background: var(--primary-color);
+  top: 100%;
+  left: 0;
+  transition: width 0.2s linear;
+}
+
+.main-menu ul > li > a:hover:after {
+  width: 100%;
+}
+
+.header-right {
+  justify-content: end;
+  display: flex;
+  align-items: center;
+}
+
+.header-right a {
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 16px;
+  background: var(--primary-color);
+  border-radius: 30px;
+}
